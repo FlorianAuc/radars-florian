@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radars</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main
+      class="d-flex justify-content-center align-items-center"
+      style="height: 100vh"
+    >
+      <div class="content">
+        <h2>S'identifier</h2>
+        <form action="" class="form-connect">
+          <label for="login">Login: </label>
+          <input type="text" name="username" value="admin" />
+          <label for="password">Pass: </label>
+          <input type="text" name="password" value="pass" />
+          <button type="submit">Se connecter</button>
+        </form>
+      </div>
+      <div>
+        <a class="btn btn-primary mr-2" href="./pages/formateur.html"
+          >Formateur</a
+        >
+        <span class="fs-3">|</span>
+        <a class="btn btn-secondary ml-2" href="./pages/stagiaire.html"
+          >Stagiaire</a
+        >
+      </div>
+    </main>
+    <footer class="bg-body-tertiary text-center text-lg-start">
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        <h3>© 2023 Cepegra</h3>
+      </div>
+    </footer>
+    <script src="./js/connexion.js"></script>
+  </body>
+</html>

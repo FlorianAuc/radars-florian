@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evaluation</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="d-flex justify-content-between">
+      <!-- div de gauche -->
+      <div class="stagiaire info d-flex flex-row">
+        <a class="me-5" href="./stagiaire.html"
+          ><i class="bi bi-arrow-left fs-1"></i
+        ></a>
+        <i class="bi bi-person-circle fs-1"></i>
+        <p class="fs-2">Laurie Demauret</p>
+      </div>
+
+      <!-- div de droite -->
+      <div class="info-evaluation d-flex">
+        <div class="lieu me-5">
+          <span class="text-secondary">centre</span>
+          <p>Cepegra</p>
+        </div>
+        <div class="formation me-5">
+          <span class="text-secondary">formation</span>
+          <p>Chargé de communication</p>
+        </div>
+        <div class="session me-5">
+          <span class="text-secondary">code session</span>
+          <p>ingrwc 32</p>
+        </div>
+        <div class="date me-5">
+          <span class="text-secondary">date d'évaluation</span>
+          <p>13/11</p>
+        </div>
+      </div>
+    </main>
+
+    <section class="card-stagiaire text-center mt-4">
+      <p>Mon auto-évaluation</p>
+      <div class="card-evaluation mt-5">
+        <form action="" class="card-evaluation-stagiaire">
+          <div class="container evaluation-stagiaire">
+            <div class="row">
+              <h2>Esprit d'analyse</h2>
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="esprit_danalyse_1">
+                    <h2>1.</h2>
+                    <p>Je me fie à mon instinct</p>
+                    <input
+                      type="radio"
+                      name="esprit_danalyse"
+                      id="esprit_danalyse_1"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="esprit_danalyse_2">
+                    <h2>2.</h2>
+                    <p>
+                      Je consulte le web à la recherche d'une solution toute
+                      faite
+                    </p>
+                    <input
+                      type="radio"
+                      name="esprit_danalyse"
+                      id="esprit_danalyse_2"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="esprit_danalyse_3">
+                    <h2>3.</h2>
+                    <p>
+                      Je décompose un problème en sous-éléments en utilisant un
+                      schéma
+                    </p>
+                    <input
+                      type="radio"
+                      name="esprit_danalyse"
+                      id="esprit_danalyse_3"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="esprit_danalyse_4">
+                    <h2>4.</h2>
+                    <p>
+                      J'anticipe les évolutions futures et organise les
+                      problèmes
+                    </p>
+                    <input
+                      type="radio"
+                      name="esprit_danalyse"
+                      id="esprit_danalyse_4"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+
+          <div class="container evaluation-stagiaire hidden">
+            <div class="row">
+              <h2>Curiosité intellectuelle</h2>
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="curiosite_intellectuelle_1">
+                    <h2>1.</h2>
+                    <p>J'évite d'utiliser des choses inconnues</p>
+                    <input
+                      type="radio"
+                      name="curiosite_intellectuelle"
+                      id="curiosite_intellectuelle_1"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="curiosite_intellectuelle_2">
+                    <h2>2.</h2>
+                    <p>
+                      Je découvre des nouveauté lorsqu'elle se présente a moi
+                    </p>
+                    <input
+                      type="radio"
+                      name="curiosite_intellectuelle"
+                      id="curiosite_intellectuelle_2"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="curiosite_intellectuelle_3">
+                    <h2>3.</h2>
+                    <p>
+                      Je me tiens au courant des dernière nouveauté dans mon
+                      domaine
+                    </p>
+                    <input
+                      type="radio"
+                      name="curiosite_intellectuelle"
+                      id="curiosite_intellectuelle_3"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="curiosite_intellectuelle_4">
+                    <h2>4.</h2>
+                    <p>Je fais des recherches et me lance des défis</p>
+                    <input
+                      type="radio"
+                      name="curiosite_intellectuelle"
+                      id="curiosite_intellectuelle_4"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+
+          <div class="container evaluation-stagiaire hidden">
+            <div class="row">
+              <h2>Acceptation de la critique</h2>
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="acceptation_de_la_critique_1">
+                    <h2>1.</h2>
+                    <p>
+                      Je considère mon travail avec suffisance. je n'accepte pas
+                      les critiques
+                    </p>
+                    <input
+                      type="radio"
+                      name="acceptation_de_la_critique"
+                      id="acceptation_de_la_critique_1"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="acceptation_de_la_critique_2">
+                    <h2>2.</h2>
+                    <p>
+                      Je prends pas les critiques personnellement, mais je suis
+                      persuadé que ma solution est meilleure
+                    </p>
+                    <input
+                      type="radio"
+                      name="acceptation_de_la_critique"
+                      id="acceptation_de_la_critique_2"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="acceptation_de_la_critique_3">
+                    <h2>3.</h2>
+                    <p>
+                      J'écoute les critiques avec réserve. je reconnais que j'ai
+                      à apprendre
+                    </p>
+                    <input
+                      type="radio"
+                      name="acceptation_de_la_critique"
+                      id="acceptation_de_la_critique_3"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="acceptation_de_la_critique_4">
+                    <h2>4.</h2>
+                    <p>
+                      Je participe à des "revues de codes" et je suis a l'écoute
+                      de suggestion
+                    </p>
+                    <input
+                      type="radio"
+                      name="acceptation_de_la_critique"
+                      id="acceptation_de_la_critique_4"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+
+          <div class="container evaluation-stagiaire hidden">
+            <div class="row">
+              <h2>Sens de l'organisation</h2>
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="sens_de_lorganisation_1">
+                    <h2>1.</h2>
+                    <p>J'organise mes ressources avec pragmatisme</p>
+                    <input
+                      type="radio"
+                      name="sens_de_lorganisation"
+                      id="sens_de_lorganisation_1"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="sens_de_lorganisation_2">
+                    <h2>2.</h2>
+                    <p>
+                      Je commente mon code et j'organise mes fichiers de manière
+                      cohérente.
+                    </p>
+                    <input
+                      type="radio"
+                      name="sens_de_lorganisation"
+                      id="sens_de_lorganisation_2"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="sens_de_lorganisation_3">
+                    <h2>3.</h2>
+                    <p>
+                      Je priorise les tâches. je décompose et établis un
+                      planning
+                    </p>
+                    <input
+                      type="radio"
+                      name="sens_de_lorganisation"
+                      id="sens_de_lorganisation_3"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="sens_de_lorganisation_4">
+                    <h2>4.</h2>
+                    <p>
+                      J'utilise des outils de versioning de manière
+                      collaborative
+                    </p>
+                    <input
+                      type="radio"
+                      name="sens_de_lorganisation"
+                      id="sens_de_lorganisation_4"
+                    />
+                  </label>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+
+          <div class="container evaluation-stagiaire hidden">
+            <div class="row">
+              <h2>Motivation</h2>
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="motivation_1">
+                    <h2>1.</h2>
+                    <p>Je ne prends pas de plaisir dans mon travail</p>
+                    <input type="radio" name="motivation" id="motivation_1" />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="motivation_2">
+                    <h2>2.</h2>
+                    <p>
+                      Jemets de l'énergie à la tâche mais je n'éprouve pas de
+                      réel plaisir
+                    </p>
+                    <input type="radio" name="motivation" id="motivation_2" />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="motivation_3">
+                    <h2>3.</h2>
+                    <p>
+                      J'approche le travail avec positivité, j'éprouve du
+                      plaisir
+                    </p>
+                    <input type="radio" name="motivation" id="motivation_3" />
+                  </label>
+                </fieldset>
+              </div>
+
+              <div class="col-md-3">
+                <fieldset class="fieldset border">
+                  <label for="motivation_4">
+                    <h2>4.</h2>
+                    <p>
+                      Je suis passioné, je partage mes connaissances avec
+                      d'autres et les aides
+                    </p>
+                    <input type="radio" name="motivation" id="motivation_4" />
+                  </label>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <a href="" class="nextQ">Next</a>
+          <button class="submit btn btn-outline-primary hidden">Envoyer</button>
+        </form>
+      </div>
+    </section>
+    <footer class="bg-body-tertiary text-center text-lg-start">
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        <h3>© 2023 Cepegra</h3>
+      </div>
+    </footer>
+    <script src="../js/card_display_stagiaire.js"></script>
+  </body>
+</html>
